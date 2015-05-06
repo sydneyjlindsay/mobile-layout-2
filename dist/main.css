@@ -58,6 +58,7 @@
 	height: 67px;
 	margin: 0 auto;
 	margin-bottom: 30px;
+	overflow: 
 }
 
 .sub-header {
@@ -134,18 +135,20 @@
 }
 
 .sub-footer {
-	box-sizing: border-box;
-	height: 170px;
+	height: 70px;
 	background-color: #E8F0F5;
 	padding-top: 100px;
+	
 }
 
 .create-bottom {
+	margin-top: 100px;
 	width: 208px; 
 	height: 52px;
 	background-color: #268DBC; 
 	margin: 0 auto;
 	text-align: center;
+	vertical-align: center;
 }
 
 .footer {
@@ -154,15 +157,21 @@
 	margin: 0 auto;
 }
 
-ul {
-	margin: 0 auto;
+
+nav {
+	height: 130px;
+	text-align: center;
+	padding-top: 30px;
 }
 
 a {
-	color: white;
-	text-align: center;
 	text-decoration: none;
-	margin: 20px;
+	color: white;
+	font-family: sans-serif;
+	margin-top: 70px;
+	font-size: 12px;
+	margin-right: 18px;
+	margin-bottom: 30px;
 }
 
 .log-in {
@@ -183,22 +192,19 @@ a {
 
 .top-logo {
 	box-sizing: border-box;
-	width: 115px;
+	width: 120px;
 	height: 32px;
 	background-color: white;
 	margin-left: 45px;
 }
 
 .features-icon {
-	box-sizing: border-box;
 	width: 60px;
 	height: 67px;
 	background-color: #616E7E;
-	border-top: 10px solid white;
 }
 
 .features-text {
-	box-sizing: border-box;
 	width: 245px;
 	height: 67px;
 	background-color: #616E7E;
@@ -206,5 +212,53 @@ a {
 	border-bottom: 10px solid white;
 	border-right: 0px solid white;
 	padding-left: 20px;
+}
 
+.bottom-logo {
+	width: 132px; 
+	height: 22px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.feature-icon {
+	width: 63px; 
+	height: 63px;
+	background-color: #C7D2D8;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.feature-name {
+	width: 408px; 
+	height: 24px;
+	background-color: #C7D2D8;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.feature-exp {
+	width: 408px;
+	height: 50px;
+	background-color: #C7D2D8;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.features-box {
+	width: 45px;
+	height: 57px;
+	float: left;
+	margin-top: 10px;
+	background-color: #5E6B7A;
+}
+
+.features-box2 {
+	width: 240px;
+	height: 55px;
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 3px;
+	background-color: #5E6B7A;
 }
