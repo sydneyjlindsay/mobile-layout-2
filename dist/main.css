@@ -1,6 +1,10 @@
 .wp-header {
+	box-sizing: border-box;
 	height: 50px;
 	background-color: #1E8CBE;
+	padding-left: 15px;
+	padding-top: 10px;
+	
 }
 .page-root {
 	height: 1110px;
@@ -26,7 +30,6 @@
 	font-weight: 300;
 	font-size: 15px;
 	padding: 20px 0 30px 0;
-
 }
 
 .create-box {
@@ -60,6 +63,7 @@
 .sub-header {
 	height: 190px;
 	background-color: #E8F0F5;
+
 }
 
 .feature1 {
@@ -159,4 +163,48 @@ a {
 	text-align: center;
 	text-decoration: none;
 	margin: 20px;
+}
+
+.log-in {
+	width: 75px;
+	height: 50px;
+	background-color: #1171A2;
+	float: right;
+	margin: 0 auto;	
+}
+
+.top-icon {
+	box-sizing: border-box;
+	width: 32px;
+	height: 32px;
+	background-color: white;
+	margin-right: 15px; 
+}
+
+.top-logo {
+	box-sizing: border-box;
+	width: 115px;
+	height: 32px;
+	background-color: white;
+	margin-left: 45px;
+}
+
+.features-icon {
+	box-sizing: border-box;
+	width: 60px;
+	height: 67px;
+	background-color: #616E7E;
+	border-top: 10px solid white;
+}
+
+.features-text {
+	box-sizing: border-box;
+	width: 245px;
+	height: 67px;
+	background-color: #616E7E;
+	border-left: 10px solid white;
+	border-bottom: 10px solid white;
+	border-right: 0px solid white;
+	padding-left: 20px;
+
 }
