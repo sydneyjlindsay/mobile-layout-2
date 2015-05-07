@@ -62,9 +62,17 @@
 }
 
 .sub-header {
-	height: 190px;
 	background-color: #E8F0F5;
+}
 
+.sub-header-text {
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	text-align: center;
+	margin:0 auto;
+	line-height: 43px;
+	padding: 20px 10px 20px 10px;
 }
 
 .feature1 {
@@ -130,15 +138,14 @@
 	border-style: solid;
 	border-color: #D1D3D7;
 	background-color: white;
-	height: 215px;
+	/*height: 215px;*/
 	margin: 0 auto;
 }
 
 .sub-footer {
-	height: 70px;
 	background-color: #E8F0F5;
-	padding-top: 100px;
-	
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
 
 .create-bottom {
@@ -230,28 +237,202 @@ a {
 	margin-top: 25px;
 }
 
-.feature-icon {
+.feature-icon1 {
 	width: 63px; 
 	height: 63px;
 	background-color: #C7D2D8;
 	margin: 0 auto;
 	margin-top: 20px;
+	background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/master/images/lightbulb.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%
 }
 
-.feature-name {
-	width: 408px; 
-	height: 24px;
+.feature-icon1 {
+	/*width: 63px; 
+	height: 63px;*/
+	background-size: 50%;
 	background-color: #C7D2D8;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/master/images/lightbulb.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%
+}
+
+.feature-icon2 {
+	width: 63px; 
+	height: 63px;
+	background-size: 50%;
+	background-color: #C7D2D8;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/master/images/cloud.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%
+}
+
+.feature-icon3 {
+	width: 63px; 
+	height: 63px;
+	background-size: 50%;
+	background-color: #C7D2D8;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/master/images/code.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%
+}
+
+.feature-icon4 {
+	width: 63px; 
+	height: 63px;
+	background-size: 50%;
+	background-color: #C7D2D8;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/master/images/comments.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%
+}
+
+.feature-icon5 {
+	width: 63px; 
+	height: 63px;
+	background-size: 50%;
+	background-color: #C7D2D8;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/master/images/gift.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%
+}
+
+.feature-icon6 {
+	width: 63px; 
+	height: 63px;
+	background-size: 50%;
+	background-color: #C7D2D8;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/master/images/globe.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%
+}
+
+.feature-name1 {
+	color: #426277;
 	margin: 0 auto;
 	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
 }
 
-.feature-exp {
-	width: 408px;
-	height: 50px;
-	background-color: #C7D2D8;
+.feature-name2 {
+	color: #426277;
 	margin: 0 auto;
-	margin-top: 15px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.feature-name3 {
+	color: #426277;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.feature-name4 {
+	color: #426277;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.feature-name5 {
+	color: #426277;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.feature-name6 {
+	color: #426277;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.feature-exp1 {
+	color: rgba(0, 0, 0, 0.7);
+	padding: 15px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 17px;
+	line-height: 25px;
+}
+
+.feature-exp2 {
+	color: rgba(0, 0, 0, 0.7);
+	padding: 15px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 17px;
+	line-height: 25px;
+}
+
+.feature-exp3 {
+	color: rgba(0, 0, 0, 0.7);
+	padding: 15px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 17px;
+	line-height: 25px;
+}
+
+.feature-exp4 {
+	color: rgba(0, 0, 0, 0.7);
+	padding: 15px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 17px;
+	line-height: 25px;
+}
+
+.feature-exp5 {
+	color: rgba(0, 0, 0, 0.7);
+	padding: 15px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 17px;
+	line-height: 25px;
+}
+
+.feature-exp6 {
+	color: rgba(0, 0, 0, 0.7);
+	padding: 15px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 17px;
+	line-height: 25px;
 }
 
 .features-mobile {
@@ -341,18 +522,15 @@ h4 {
 	font-size: 14px;
 }
 
-/*
-.tablet {
-	background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/master/images/tablet.png);
-	width: 60px;
-	height: 67px;
-}*/
-
-
-
-
-
-
+.sub-footer-text {
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 25px;
+	text-align: center;
+	margin:0 auto;
+	line-height: 43px;
+	padding-bottom: 50px;
+}
 
 
 
